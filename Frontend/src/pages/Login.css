@@ -1,0 +1,81 @@
+/* ===== Page-scoped full-screen background ===== */
+.auth-bg {
+  position: fixed;
+  inset: 0;
+  background: url("../public/background.jpg") center center / cover no-repeat fixed;
+
+  z-index: 0;                /* sits behind the content */
+}
+.auth-bg::after {            /* soft dark overlay */
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.45);
+}
+
+/* ===== Layout ===== */
+.login-wrap {
+  min-height: 100vh;         /* fill the viewport */
+  display: grid;
+  place-items: center;
+  padding: 24px;
+  position: relative;        /* create a stacking context for the card */
+  z-index: 1;                /* above .auth-bg */
+}
+
+/* ===== Glassy card ===== */
+.login-card {
+  width: min(460px, 92vw);
+  color: #fff;
+  background: rgba(0, 0, 0, 0.40);
+  border: 1px solid rgba(255,255,255,0.25);
+  border-radius: 16px;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  padding: 24px 22px;
+  box-shadow: 0 18px 50px rgba(0,0,0,0.5);
+}
+
+.login-title { margin: 0 0 8px; font-weight: 800; font-size: 28px; }
+.login-sub   { margin: 0 0 18px; opacity: 0.9; font-size: 14px; }
+
+/* Inputs */
+.input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid rgba(255,255,255,0.3);
+  border-radius: 10px;
+  background: rgba(255,255,255,0.12);
+  color: #fff;
+  outline: none;
+}
+.input::placeholder { color: rgba(255,255,255,0.7); }
+
+/* Row with remember/forgot or checkbox */
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0 14px;
+  font-size: 13px;
+}
+
+/* Buttons */
+.btn {
+  width: 100%;
+  padding: 12px;
+  font-weight: 700;
+  border-radius: 10px;
+  border: none;
+  background: #111827;
+  color: #fff;
+  cursor: pointer;
+}
+.btn + .btn { margin-top: 10px; }
+
+/* Links */
+.link {
+  color: #c3e0ff;
+  text-decoration: none;
+}

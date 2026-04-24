@@ -1,0 +1,34 @@
+{
+  "processSteps": [
+    {
+      "title": "We design",
+      "description": "We understand your lifestyle and translate your vision into 3D designs."
+    },
+    {
+      "title": "We curate",
+      "description": "Modular kitchens, wardrobes and storage from our catalogue."
+    },
+    {
+      "title": "We deliver",
+      "description": "Flooring, false ceiling, plumbing and everything in between."
+    }
+  ],
+  "budgetHomes": [
+    { "type": "2BHK", "price": "3.57L" },
+    { "type": "3BHK", "price": "4.23L" },
+    { "type": "4BHK", "price": "4.81L" }
+  ],
+  "reasons": [
+    "10-year warranty",
+    "146 quality checks",
+    "45-day installation",
+    "Personalised designs",
+    "One-stop shop",
+    "No hidden costs"
+  ],
+  "services": [
+    "Modular Kitchens",
+    "Modular Wardrobes",
+    "Living Rooms"
+  ]
+}

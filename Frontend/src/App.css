@@ -1,0 +1,4 @@
+/* page spacing so content is visible under sticky navbar */
+main, section, .page {
+  padding: 24px 20px;
+}

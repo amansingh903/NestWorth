@@ -1,0 +1,97 @@
+/* src/styles/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+img { display: block; max-width: 100%; }
+button { font: inherit; }
+a { color: inherit; }
+
+:root{
+  --ink:#0f172a;
+  --ink-2:#334155;
+  --ring:#e5e7eb;
+  --bg:#ffffff;
+}
+
+.dark {
+  --ink:#f1f5f9;
+  --ink-2:#cbd5e1;
+  --ring:#334155;
+  --bg:#0f172a;
+}
+
+body{
+  font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  color: var(--ink);
+  background: var(--bg);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Dark mode overrides for specific components */
+.dark .home {
+  background: var(--bg);
+  color: var(--ink);
+}
+
+.dark .hero-inner h1,
+.dark .hero-inner p {
+  color: #fff;
+}
+
+.dark .steps,
+.dark .explainer {
+  background: #1e293b;
+  color: #f1f5f9;
+}
+
+.dark .steps h2,
+.dark .explainer h2 {
+  color: #f1f5f9;
+}
+
+.dark .step,
+.dark .exp-grid > div {
+  background: #334155;
+  color: #f1f5f9;
+  border-color: #475569;
+}
+
+.dark .step h3,
+.dark .exp-grid h3 {
+  color: #f1f5f9;
+}
+
+.dark .step p,
+.dark .exp-grid p {
+  color: #cbd5e1;
+}
+
+.dark .card {
+  background: #334155;
+  border-color: #475569;
+}
+
+.dark .card-body h3,
+.dark .card-body p {
+  color: #f1f5f9 !important;
+}
+
+.dark .faq details {
+  background: #334155;
+  border-color: #475569;
+  color: #f1f5f9;
+}
+
+.dark .faq summary {
+  color: #f1f5f9;
+}

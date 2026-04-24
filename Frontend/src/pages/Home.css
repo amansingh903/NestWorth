@@ -1,0 +1,192 @@
+/* src/pages/Home.css  — neutral, slightly darker (no purple) */
+:root{
+  --ink:   #0f172a;         /* headings/body */
+  --muted: #475569;         /* secondary text */
+  --ring:  #d9dee5;         /* softer border than before */
+  --brand: #ef4444;         /* accent (cta) */
+  --card:  #fafafa;         /* cards a touch darker than pure white */
+  --bg:    #f3f4f6;         /* page background slightly darker (neutral grey) */
+}
+
+.home{ background:var(--bg); color:var(--ink); }
+
+/* ============ HERO ============ */
+.hero{
+  position:relative;
+  min-height:62vh;
+  display:grid;
+  place-items:center;
+  overflow:hidden;
+}
+.hero-bg{
+  position:absolute; inset:0;
+  width:100%; height:100%;
+  object-fit:cover;
+}
+.hero-overlay{
+  /* Stronger, neutral charcoal overlay (no purple) */
+  position:absolute; inset:0;
+  background:
+    linear-gradient(180deg, rgba(0,0,0,.38), rgba(0,0,0,.58));
+}
+.hero-inner{
+  position:relative; z-index:1;
+  text-align:center; color:#fff;
+  padding:48px 16px;
+  text-shadow: 0 2px 16px rgba(0,0,0,.35);
+}
+.hero-inner h1{
+  font-size:clamp(28px,4.5vw,56px);
+  margin:0 0 8px; line-height:1.05;
+}
+.hero-inner p{ opacity:.92; margin:0 0 18px; }
+.cta{
+  display:inline-block;
+  padding:12px 18px;
+  border-radius:999px;
+  background:var(--brand);
+  color:#fff; text-decoration:none; font-weight:700;
+  box-shadow: 0 8px 18px rgba(239,68,68,.25);
+  transition: transform .18s ease, box-shadow .18s ease, background .18s ease;
+}
+.cta:hover{
+  transform: translateY(-1px);
+  box-shadow: 0 10px 22px rgba(239,68,68,.3);
+}
+.cta.ghost{
+  background:#fff; color:var(--ink);
+  border:1px solid var(--ring);
+}
+
+/* ============ STEPS ============ */
+.steps{ max-width:1200px; margin:40px auto; padding:0 16px; }
+.steps h2{ text-align:center; margin-bottom:18px; color:var(--ink); }
+.steps-grid{
+  display:grid; grid-template-columns:repeat(4,1fr); gap:16px;
+}
+.step{
+  background:var(--card);
+  border:1px solid var(--ring);
+  border-radius:16px; padding:18px; text-align:center;
+  box-shadow: 0 6px 18px rgba(0,0,0,.06);
+  transition: transform .18s ease, box-shadow .18s ease;
+}
+.step:hover{
+  transform: translateY(-2px);
+  box-shadow: 0 10px 22px rgba(0,0,0,.10);
+}
+.icon{ font-size:28px; }
+
+/* ============ ESTIMATES ============ */
+.estimates{ max-width:1200px; margin:40px auto; padding:0 16px; }
+.title-row{
+  display:flex; align-items:center; justify-content:space-between;
+  gap:16px; margin-bottom:14px;
+}
+.cards{ display:grid; grid-template-columns:repeat(3,1fr); gap:18px; }
+.card{
+  background:var(--card);
+  border:1px solid var(--ring);
+  border-radius:16px; overflow:hidden;
+  box-shadow: 0 6px 18px rgba(0,0,0,.06);
+  transition: transform .18s ease, box-shadow .18s ease;
+}
+.card:hover{
+  transform: translateY(-2px);
+  box-shadow: 0 12px 24px rgba(0,0,0,.12);
+}
+.card img{ width:100%; height:220px; object-fit:cover; display:block; }
+.card-body{ padding:14px; color:var(--muted); }
+.card-body h4{ margin:0 0 6px; color:var(--ink); }
+
+/* ============ EXPLAINER ============ */
+.explainer{ max-width:1200px; margin:40px auto; padding:0 16px; text-align:center; }
+.exp-grid{
+  display:grid; grid-template-columns:repeat(3,1fr); gap:18px; margin:16px 0 24px;
+}
+.exp-grid > div{
+  background:var(--card);
+  border:1px solid var(--ring);
+  border-radius:14px; padding:16px;
+  box-shadow: 0 6px 18px rgba(0,0,0,.06);
+}
+
+/* ============ FAQ ============ */
+.faq{ max-width:900px; margin:40px auto 64px; padding:0 16px; }
+.faq details{
+  background:var(--card);
+  border:1px solid var(--ring);
+  border-radius:12px; padding:12px 16px; margin-bottom:10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,.05);
+}
+.faq summary{ cursor:pointer; font-weight:700; color:var(--ink); }
+
+/* ============ Responsive ============ */
+@media (max-width: 1000px){
+  .steps-grid{ grid-template-columns:1fr 1fr; }
+  .cards{ grid-template-columns:1fr; }
+  .exp-grid{ grid-template-columns:1fr; }
+}
+/* === Home: make Steps + Explainer readable on dark theme === */
+
+/* Light background for the sections themselves */
+.home .steps,
+.home .explainer {
+  background: #f8fafc;          /* very light */
+  color: #0b1220;               /* dark ink */
+}
+
+/* Section titles */
+.home .steps h2,
+.home .explainer h2 {
+  color: #0b1220;
+}
+
+/* STEP cards */
+.home .steps .steps-grid .step {
+  background: #ffffff;          /* white card */
+  color: #0b1220;
+  border: 1px solid #e6ecf2;
+  border-radius: 14px;
+  box-shadow: 0 10px 30px rgba(2, 6, 23, 0.06);
+}
+
+.home .steps .step h3 {
+  color: #0b1220;
+}
+
+.home .steps .step p {
+  color: #334155;               /* readable grey */
+}
+
+/* EXPLAINER cards */
+.home .explainer .exp-grid > div {
+  background: #ffffff;
+  color: #0b1220;
+  border: 1px solid #e6ecf2;
+  border-radius: 14px;
+  box-shadow: 0 10px 30px rgba(2, 6, 23, 0.06);
+}
+
+.home .explainer .exp-grid h3 {
+  color: #0b1220;
+}
+
+.home .explainer .exp-grid p {
+  color: #334155;
+}
+
+/* CTA buttons inside these sections stay vibrant */
+.home .steps .cta,
+.home .explainer .cta {
+  color: #fff !important;
+}
+/* === Fix: Dark text for the Home → Estimates cards === */
+
+.home .estimates .cards .card h3 {
+  color: #0b1220 !important;     /* dark ink */
+}
+
+.home .estimates .cards .card p {
+  color: #334155 !important;     /* readable grey */
+}

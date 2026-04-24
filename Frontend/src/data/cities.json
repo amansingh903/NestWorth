@@ -1,0 +1,95 @@
+[
+  { "slug": "agra", "name": "Agra", "heroImage": "/images/default-hero.jpg", "experienceCenters": [] },
+  { "slug": "ahmedabad", "name": "Ahmedabad", "heroImage": "/images/default-hero.jpg", "experienceCenters": [] },
+  { "slug": "aizawl", "name": "Aizawl", "heroImage": "/images/default-hero.jpg", "experienceCenters": [] },
+  { "slug": "amritsar", "name": "Amritsar", "heroImage": "/images/default-hero.jpg", "experienceCenters": [] },
+  { "slug": "aurangabad", "name": "Aurangabad", "heroImage": "/images/default-hero.jpg", "experienceCenters": [] },
+  { "slug": "ayodhya", "name": "Ayodhya", "heroImage": "/images/default-hero.jpg", "experienceCenters": [] },
+  { "slug": "aligarh", "name": "Aligarh", "heroImage": "/images/default-hero.jpg", "experienceCenters": [] },
+
+  { "slug": "baramulla", "name": "Baramulla", "heroImage": "/images/default-hero.jpg", "experienceCenters": [] },
+  { "slug": "bareilly", "name": "Bareilly", "heroImage": "/images/default-hero.jpg", "experienceCenters": [] },
+  { "slug": "belgaum", "name": "Belgaum", "heroImage": "/images/default-hero.jpg", "experienceCenters": [] },
+  { "slug": "bengaluru", "name": "Bengaluru", "heroImage": "/images/default-hero.jpg", "experienceCenters": [] },
+  { "slug": "bhopal", "name": "Bhopal", "heroImage": "/images/default-hero.jpg", "experienceCenters": [] },
+  { "slug": "bhubaneswar", "name": "Bhubaneswar", "heroImage": "/images/default-hero.jpg", "experienceCenters": [] },
+  { "slug": "bikaner", "name": "Bikaner", "heroImage": "/images/default-hero.jpg", "experienceCenters": [] },
+
+  {
+    "slug": "chandigarh",
+    "name": "Chandigarh",
+    "heroImage": "/images/default-hero.jpg",
+    "experienceCenters": [
+      {
+        "name": "Sector 17 Experience Center",
+        "address": "Sector 17, Chandigarh",
+        "timings": "Mon–Sat | 10 AM – 8 PM",
+        "phone": "+91 8047759147"
+      }
+    ]
+  },
+
+  { "slug": "chennai", "name": "Chennai", "heroImage": "/images/default-hero.jpg", "experienceCenters": [] },
+  { "slug": "coimbatore", "name": "Coimbatore", "heroImage": "/images/default-hero.jpg", "experienceCenters": [] },
+
+  { "slug": "davangere", "name": "Davangere", "heroImage": "/images/default-hero.jpg", "experienceCenters": [] },
+  { "slug": "dehradun", "name": "Dehradun", "heroImage": "/images/default-hero.jpg", "experienceCenters": [] },
+  { "slug": "delhi", "name": "Delhi", "heroImage": "/images/default-hero.jpg", "experienceCenters": [] },
+
+  { "slug": "erode", "name": "Erode", "heroImage": "/images/default-hero.jpg", "experienceCenters": [] },
+  { "slug": "faridabad", "name": "Faridabad", "heroImage": "/images/default-hero.jpg", "experienceCenters": [] },
+  { "slug": "ghaziabad", "name": "Ghaziabad", "heroImage": "/images/default-hero.jpg", "experienceCenters": [] },
+  { "slug": "goa", "name": "Goa", "heroImage": "/images/default-hero.jpg", "experienceCenters": [] },
+  { "slug": "gorakhpur", "name": "Gorakhpur", "heroImage": "/images/default-hero.jpg", "experienceCenters": [] },
+  { "slug": "gurugram", "name": "Gurugram", "heroImage": "/images/default-hero.jpg", "experienceCenters": [] },
+  { "slug": "guwahati", "name": "Guwahati", "heroImage": "/images/default-hero.jpg", "experienceCenters": [] },
+
+  { "slug": "hyderabad", "name": "Hyderabad", "heroImage": "/images/default-hero.jpg", "experienceCenters": [] },
+  { "slug": "indore", "name": "Indore", "heroImage": "/images/default-hero.jpg", "experienceCenters": [] },
+  { "slug": "jaipur", "name": "Jaipur", "heroImage": "/images/default-hero.jpg", "experienceCenters": [] },
+  { "slug": "jammu", "name": "Jammu", "heroImage": "/images/default-hero.jpg", "experienceCenters": [] },
+  { "slug": "jodhpur", "name": "Jodhpur", "heroImage": "/images/default-hero.jpg", "experienceCenters": [] },
+  { "slug": "kanpur", "name": "Kanpur", "heroImage": "/images/default-hero.jpg", "experienceCenters": [] },
+  { "slug": "kochi", "name": "Kochi", "heroImage": "/images/default-hero.jpg", "experienceCenters": [] },
+  { "slug": "kolkata", "name": "Kolkata", "heroImage": "/images/default-hero.jpg", "experienceCenters": [] },
+
+  { "slug": "lucknow", "name": "Lucknow", "heroImage": "/images/default-hero.jpg", "experienceCenters": [] },
+  { "slug": "ludhiana", "name": "Ludhiana", "heroImage": "/images/default-hero.jpg", "experienceCenters": [] },
+
+  { "slug": "madurai", "name": "Madurai", "heroImage": "/images/default-hero.jpg", "experienceCenters": [] },
+  { "slug": "mangalore", "name": "Mangalore", "heroImage": "/images/default-hero.jpg", "experienceCenters": [] },
+  { "slug": "meerut", "name": "Meerut", "heroImage": "/images/default-hero.jpg", "experienceCenters": [] },
+  { "slug": "moradabad", "name": "Moradabad", "heroImage": "/images/default-hero.jpg", "experienceCenters": [] },
+  { "slug": "mumbai", "name": "Mumbai", "heroImage": "/images/default-hero.jpg", "experienceCenters": [] },
+  { "slug": "mysore", "name": "Mysore", "heroImage": "/images/default-hero.jpg", "experienceCenters": [] },
+
+  { "slug": "nagpur", "name": "Nagpur", "heroImage": "/images/default-hero.jpg", "experienceCenters": [] },
+  { "slug": "nashik", "name": "Nashik", "heroImage": "/images/default-hero.jpg", "experienceCenters": [] },
+  { "slug": "noida", "name": "Noida", "heroImage": "/images/default-hero.jpg", "experienceCenters": [] },
+
+  { "slug": "patna", "name": "Patna", "heroImage": "/images/default-hero.jpg", "experienceCenters": [] },
+  { "slug": "pondicherry", "name": "Pondicherry", "heroImage": "/images/default-hero.jpg", "experienceCenters": [] },
+  { "slug": "pune", "name": "Pune", "heroImage": "/images/default-hero.jpg", "experienceCenters": [] },
+
+  { "slug": "raebareli", "name": "Raebareli", "heroImage": "/images/default-hero.jpg", "experienceCenters": [] },
+  { "slug": "raipur", "name": "Raipur", "heroImage": "/images/default-hero.jpg", "experienceCenters": [] },
+  { "slug": "ranchi", "name": "Ranchi", "heroImage": "/images/default-hero.jpg", "experienceCenters": [] },
+
+  { "slug": "salem", "name": "Salem", "heroImage": "/images/default-hero.jpg", "experienceCenters": [] },
+  { "slug": "siliguri", "name": "Siliguri", "heroImage": "/images/default-hero.jpg", "experienceCenters": [] },
+  { "slug": "solapur", "name": "Solapur", "heroImage": "/images/default-hero.jpg", "experienceCenters": [] },
+  { "slug": "srinagar", "name": "Srinagar", "heroImage": "/images/default-hero.jpg", "experienceCenters": [] },
+  { "slug": "surat", "name": "Surat", "heroImage": "/images/default-hero.jpg", "experienceCenters": [] },
+
+  { "slug": "thane", "name": "Thane", "heroImage": "/images/default-hero.jpg", "experienceCenters": [] },
+  { "slug": "trivandrum", "name": "Trivandrum", "heroImage": "/images/default-hero.jpg", "experienceCenters": [] },
+
+  { "slug": "udaipur", "name": "Udaipur", "heroImage": "/images/default-hero.jpg", "experienceCenters": [] },
+  { "slug": "udupi", "name": "Udupi", "heroImage": "/images/default-hero.jpg", "experienceCenters": [] },
+
+  { "slug": "vadodara", "name": "Vadodara", "heroImage": "/images/default-hero.jpg", "experienceCenters": [] },
+  { "slug": "varanasi", "name": "Varanasi", "heroImage": "/images/default-hero.jpg", "experienceCenters": [] },
+  { "slug": "vellore", "name": "Vellore", "heroImage": "/images/default-hero.jpg", "experienceCenters": [] },
+  { "slug": "vizag", "name": "Vizag", "heroImage": "/images/default-hero.jpg", "experienceCenters": [] },
+  { "slug": "warangal", "name": "Warangal", "heroImage": "/images/default-hero.jpg", "experienceCenters": [] }
+]

@@ -1,0 +1,10 @@
+streamlit
+requests
+folium
+streamlit-folium
+fastapi
+uvicorn
+pandas
+joblib
+scikit-learn==1.7.2
+python-multipart

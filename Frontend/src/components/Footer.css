@@ -1,0 +1,96 @@
+:root {
+  --foot-bg: #1a1a1d;        /* ✅ Premium dark grey (NOT purple) */
+  --text-white: #ffffff;     /* Pure white */
+  --text-light: rgba(255,255,255,0.85);
+  --tile-bg: rgba(255,255,255,0.10); /* Soft glass effect */
+}
+
+.foot {
+  background: var(--foot-bg);
+  color: var(--text-white);
+  margin-top: 32px;
+  font-family: Inter, system-ui, sans-serif;
+}
+
+/* --- MAIN GRID --- */
+.foot-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 48px 20px;
+  display: grid;
+  grid-template-columns: 2fr repeat(4, 1fr);
+  gap: 36px;
+}
+
+/* --- Footer Logo --- */
+.foot img {
+  height: 42px;
+  margin-bottom: 12px;
+}
+
+/* --- Titles --- */
+.foot h4 {
+  margin-bottom: 14px;
+  font-size: 15px;
+  color: var(--text-white);
+  font-weight: 600;
+  letter-spacing: 0.03em;
+}
+
+/* --- Links --- */
+.foot a {
+  display: block;
+  text-decoration: none;
+  color: var(--text-light);
+  margin: 6px 0;
+  font-size: 14px;
+  transition: opacity 0.2s, color 0.2s;
+}
+
+.foot a:hover {
+  color: var(--text-white);
+  opacity: 1;
+}
+
+/* --- App Store Buttons --- */
+.foot .apps a {
+  display: inline-flex;
+  align-items: center;
+  background: var(--tile-bg);
+  padding: 10px 12px;
+  border-radius: 8px;
+  margin-right: 10px;
+  margin-top: 8px;
+}
+
+/* --- Bottom Bar --- */
+.foot-bottom {
+  border-top: 1px solid rgba(255,255,255,0.12);
+  text-align: center;
+  padding: 14px;
+  font-size: 13px;
+  color: var(--text-light);
+}
+
+/* --- Responsive Footer --- */
+@media (max-width: 900px) {
+  .foot-inner {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  .foot-inner {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ✅ Force white text everywhere */
+.footer,
+.footer a,
+.footer p,
+.footer h3,
+.footer span,
+.footer li {
+  color: #ffffff !important;
+}
