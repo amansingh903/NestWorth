@@ -34,13 +34,13 @@ Admins get a separate JWT-protected dashboard to view and manage all incoming in
 
 | Feature | Details |
 |---|---|
-| 🤖 **AI Price Prediction** | GradientBoosting model · R² = 0.85 · MAE ≈ ₹44.77L · 59 engineered features |
-| 📐 **BHK Estimator** | Visual pricing tool adjustable by BHK type, area (sq ft), rooms, and package tier |
-| 🛋️ **Interior Showcase** | Curated galleries — furnishings, modular kitchens, wardrobes, living spaces |
-| 📬 **Lead Management** | Inquiry submissions stored in MongoDB; admin-accessible via protected API |
-| 🔐 **Admin Panel** | JWT-based auth middleware to view, manage, and delete leads |
-| 🗺️ **City Coverage Map** | Visual preview of serviceable areas across India |
-| ⭐ **Customer Reviews** | Testimonials section with real social proof |
+|  **AI Price Prediction** | GradientBoosting model · R² = 0.85 · MAE ≈ ₹44.77L · 59 engineered features |
+|  **BHK Estimator** | Visual pricing tool adjustable by BHK type, area (sq ft), rooms, and package tier |
+|  **Interior Showcase** | Curated galleries — furnishings, modular kitchens, wardrobes, living spaces |
+|  **Lead Management** | Inquiry submissions stored in MongoDB; admin-accessible via protected API |
+|  **Admin Panel** | JWT-based auth middleware to view, manage, and delete leads |
+|  **City Coverage Map** | Visual preview of serviceable areas across India |
+|  **Customer Reviews** | Testimonials section with real social proof |
 
 ---
 
