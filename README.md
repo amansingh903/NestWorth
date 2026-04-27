@@ -221,7 +221,7 @@ ADMIN_PASSWORD=your_admin_password
 Install Python dependencies:
 
 ```bash
-pip install scikit-learn pandas numpy
+pip install scikit-learn pandas numpy fastapi
 ```
 
 > **Note:** The model is pre-trained — `.pkl` files are already included. To retrain from scratch, run `python pipeline/train_model.py`.
