@@ -514,7 +514,7 @@ export default function Wardrobe() {
 
           <aside className="wd-side">
             <div className="wd-promise">
-              <h3>The HomeAura promise</h3>
+              <h3>The NestWorth promise</h3>
               <ul>
                 <li>
                   <span>Measured to the inch</span> so tall units and lofts use every

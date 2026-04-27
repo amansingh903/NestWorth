@@ -644,7 +644,7 @@ const CARDS = [
           {/* SIDE PANEL */}
           <aside className="mb-side">
             <div className="mb-promise">
-              <h3>The HomeAura promise</h3>
+              <h3>The NestWorth promise</h3>
               <ul>
                 <li>
                   <strong>10-year warranty</strong> on core installations

@@ -107,9 +107,9 @@ export default function Footer() {
       <footer className="foot">
         <div className="foot-inner">
           <div className="foot-brand">
-            <img src="/logo.png" alt="HomeAura" className="footer-logo" />
+            <img src="/logo.png" alt="NestWorth" className="footer-logo" />
             <p>
-              HomeAura helps you plan, design and build beautiful interiors with
+              NestWorth helps you plan, design and build beautiful interiors with
               transparent pricing.
             </p>
             <div className="apps">
@@ -152,12 +152,12 @@ export default function Footer() {
             <p>
               Email us
               <br />
-              care@homeaura.com
+              care@NestWorth.com
             </p>
           </div>
         </div>
         <div className="foot-bottom">
-          © 2025 HomeAura. All rights reserved.
+          © 2025 NestWorth. All rights reserved.
         </div>
       </footer>
     </>

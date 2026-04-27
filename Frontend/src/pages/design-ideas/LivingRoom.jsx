@@ -544,7 +544,7 @@ export default function LivingRoom() {
 
           <aside className="lr-side">
             <div className="lr-promise">
-              <h3>The HomeAura promise</h3>
+              <h3>The NestWorth promise</h3>
               <ul>
                 <li>
                   <span>Balanced layouts</span> that work for TV viewing, guests and
@@ -566,7 +566,7 @@ export default function LivingRoom() {
             <div className="lr-cta-panel">
               <h4>Get a design for your living room</h4>
               <p>
-                Share your contact details in the next step and a HomeAura designer will
+                Share your contact details in the next step and a NestWorth designer will
                 suggest layouts and a budget that match your space.
               </p>
               <button

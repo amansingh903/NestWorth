@@ -1,5 +1,5 @@
 """
-train_model.py  —  HomeAura ML Pipeline
+train_model.py  —  NestWorth ML Pipeline
 Dataset : ../../Data/india_housing_realistic.csv  (30 000 rows)
 Target  : Price_in_Lakhs
 R²      : ~0.85  |  MAE : ~44 Lakhs

@@ -408,7 +408,7 @@ export default function Home() {
               <div className="review-media">
                 <img
                   src="/images/reviews/review-rohit.jpeg"
-                  alt="Rohit & Shveta in their HomeAura kitchen"
+                  alt="Rohit & Shveta in their NestWorth kitchen"
                 />
                 <div className="review-overlay">
                   <div className="review-play">▶</div>
@@ -417,7 +417,7 @@ export default function Home() {
                 </div>
               </div>
               <p className="review-text">
-                “HomeAura’s team was super organised and transparent. Our 3 BHK
+                “NestWorth’s team was super organised and transparent. Our 3 BHK
                 interiors were completed ahead of the move-in date.”
               </p>
             </article>
@@ -446,7 +446,7 @@ export default function Home() {
               <div className="review-media">
                 <img
                     src="/images/reviews/review-puja.jpeg"
-                  alt="Puja Bhatia in her HomeAura bedroom"
+                  alt="Puja Bhatia in her NestWorth bedroom"
                 />
                 <div className="review-overlay">
                   <div className="review-play">▶</div>
@@ -455,7 +455,7 @@ export default function Home() {
                 </div>
               </div>
               <p className="review-text">
-                “From first call to final handover, HomeAura kept us updated on
+                “From first call to final handover, NestWorth kept us updated on
                 costs, timelines and materials. The result feels premium and homely.”
               </p>
             </article>
@@ -482,9 +482,9 @@ export default function Home() {
 
         {/* 🔻 ABOUT / DESCRIPTION (below FAQ) */}
         <section className="about-section" id="more-reviews">
-          <h2>Why homeowners love HomeAura</h2>
+          <h2>Why homeowners love NestWorth</h2>
           <p>
-            HomeAura combines intelligent price prediction with end-to-end interior
+            NestWorth combines intelligent price prediction with end-to-end interior
             design services. You get a realistic budget for your home, and a team
             that actually delivers within that budget.
           </p>

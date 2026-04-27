@@ -445,7 +445,7 @@ export default function ModularKitchen() {
             <h1>Modular Kitchen Designs</h1>
             <p>
               Explore modular kitchen designs tailored for Indian homes. Filter by layout
-              and style, then book a free consultation with the HomeAura team.
+              and style, then book a free consultation with the NestWorth team.
             </p>
           </div>
         </section>
@@ -602,7 +602,7 @@ export default function ModularKitchen() {
           {/* RIGHT: promise + CTA */}
           <aside className="mk-side">
             <div className="mk-promise">
-              <h3>The HomeAura promise</h3>
+              <h3>The NestWorth promise</h3>
               <ul>
                 <li>
                   <span>10-year warranty</span> on core modular units.
@@ -622,7 +622,7 @@ export default function ModularKitchen() {
             <div className="mk-cta-panel">
               <h4>Get a design for your kitchen</h4>
               <p>
-                Share your contact details in the next step and a HomeAura designer will
+                Share your contact details in the next step and a NestWorth designer will
                 call you back with layout ideas and a budget plan.
               </p>
               <button

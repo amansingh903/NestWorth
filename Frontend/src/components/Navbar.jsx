@@ -379,7 +379,7 @@ const handleLogout = () => {
         <div className="nav-inner">
           {/* Logo */}
           <Link to="/" className="brand" onMouseEnter={() => setOpen(null)}>
-            <img src="/logo.png" alt="HomeAura" className="brand-mark" />
+            <img src="/logo.png" alt="NestWorth" className="brand-mark" />
           </Link>
 
           {/* Left navigation */}

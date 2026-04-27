@@ -151,7 +151,7 @@ export default function ProjectJourney() {
       <div className="journey-page">
         {/* HERO */}
         <section className="journey-hero">
-          <h1>How HomeAura Works</h1>
+          <h1>How NestWorth Works</h1>
           <p>
             From idea to execution — here’s a complete journey of how our home
             price estimation and interior planning platform works.

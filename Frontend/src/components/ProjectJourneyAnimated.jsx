@@ -104,7 +104,7 @@ export default function ProjectJourneyAnimated() {
       `}</style>
 
       <div className="journey">
-        <h1>Project Journey – How HomeAura Works</h1>
+        <h1>Project Journey – How NestWorth Works</h1>
         <p className="subtitle">
           Animated flow showing how user input converts into a smart home price
           estimate

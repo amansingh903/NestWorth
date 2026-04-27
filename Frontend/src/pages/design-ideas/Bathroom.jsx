@@ -337,7 +337,7 @@ export default function Bathroom() {
 
           <aside className="bath-side">
             <div className="bath-promise">
-              <h4>Why choose HomeAura for bathrooms?</h4>
+              <h4>Why choose NestWorth for bathrooms?</h4>
               <ul>
                 <li>Waterproofing as per best practices</li>
                 <li>Anti-skid & stain-resistant finishes</li>
